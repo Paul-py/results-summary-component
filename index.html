@@ -8,13 +8,13 @@
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     body{
       display:flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      margin-top: 100px;
      
     }
 
@@ -22,18 +22,16 @@
       display:flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vmin;
       border-radius: 20px;
-
+      box-shadow: 10px 10px 5px rgba(0, 0, 255, 0.171)
     }
 
     .result {
       background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
       color: rgba(255, 255, 255, 0.774);
       border-radius: 20px;
-      padding: 20px;
+      padding: 35px;
       width: 40%;
-      
     
     }
 
@@ -50,6 +48,7 @@
 
     .result p{
       text-align: center;
+      font-size: 15px;
 
     }
 
@@ -76,23 +75,23 @@
       background-color:black;
       color: #fff;
       text-align: center;
-      padding: 10px;
+      padding: 10px; 
       font-size: 18px; 
-      margin-bottom: auto;
     }
     #summary p:hover{
       background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     }
   
     #summary{
+      border-radius: 20px;
       width: 50%;
-      padding: 30px;
-
+      padding: 10px;
+      
     }
 
     #Reaction{
       display: flex;
-      padding: 15px;
+      padding: 10px;
       justify-content: space-between;
       align-items: center;
       border-radius: 10px;
@@ -104,18 +103,18 @@
 
     #Memory{
       display: flex;
-      padding: 15px;
+      padding: 10px;
       justify-content: space-between;
       align-items: center;
       border-radius: 10px;
       background-color: rgba(255, 177, 31, 0.199);
       color: hsl(39, 100%, 56%);
-      margin-bottom: 15px;
+      margin-bottom: 15px; 
       
     }
     #Verbal{
       display: flex;
-      padding: 15px;
+      padding: 10px;
       justify-content: space-between;
       align-items: center;
       border-radius: 10px;
@@ -127,13 +126,12 @@
 
     #Visual{
       display: flex;
-      padding: 15px;
+      padding: 10px;
       justify-content: space-between;
       align-items: center;
       border-radius: 10px;
       background-color: rgba(17, 36, 212, 0.158);
       color: hsl(234, 85%, 45%);
-      margin-bottom: 15px;
       
     }
     .score-numerator {
